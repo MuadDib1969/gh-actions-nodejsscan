@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:8.2.4
 
 COPY test_data/new_data/ /data/db/data/
 
